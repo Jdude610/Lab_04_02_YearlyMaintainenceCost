@@ -1,1 +1,45 @@
 
+    public static void main(String[] args)
+            {
+                //Declarations
+                double maintainCostQtrOne=0;
+                double maintainCostQtrTwo=0;
+                double maintainCostQtrThree=0;
+                double maintainCostQtrFour=0;
+                double overallMaintainCost=0;
+
+                //User Prompt
+                System.out.println("Enter the amount of money spent for yearly maintenance in Quarter One");
+
+                //User Input Sim
+                System.out.println("300");
+                maintainCostQtrOne = 300;
+
+                //User Prompt
+                System.out.println("Enter the amount of money spent for yearly maintenance in Quarter Two");
+
+                //User Input Sim
+                System.out.println("175");
+                maintainCostQtrTwo = 175;
+
+                //User Prompt
+                System.out.println("Enter the amount of money spent for yearly maintenance in Quarter Three");
+
+                //User Input Sim
+                System.out.println("125");
+                maintainCostQtrThree = 125;
+
+                //User Prompt
+                System.out.println("Enter the amount of money spent for yearly maintenance in Quarter Four");
+
+                //User Input Sim
+                System.out.println("250");
+                maintainCostQtrFour = 250;
+
+                //Calculate YearlyMaintainCost
+                overallMaintainCost = maintainCostQtrOne + maintainCostQtrTwo + maintainCostQtrThree + maintainCostQtrFour;
+
+                //Output to User
+                System.out.println("The overall price for Maintenace in a year is $" + overallMaintainCost);
+
+            }
